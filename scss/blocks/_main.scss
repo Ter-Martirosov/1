@@ -60,16 +60,13 @@
     }
     &__character {
         display: flex;
-        padding: 8px 16px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+        align-items: center;
+        gap: 16px;
         align-self: stretch;
     }
     &__character-photo {
         width: 32px;
         height: 32px;
         border-radius: 1000px;
-        background: url('c:\Users\Acer\Downloads\Rectangle 37.png'), lightgray 50% / cover no-repeat;
     }
 }
