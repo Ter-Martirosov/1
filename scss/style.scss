@@ -1,0 +1,19 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './blocks/main';
+
+
+
+
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Onest;
+}
+.container {
+    width: 1312px;
+    margin: 0 auto;
+}

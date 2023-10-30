@@ -1,0 +1,78 @@
+.main {
+    height: 600px;
+    background: $white_main;
+    display: flex;
+    padding: 0px 64px 190px 64px;
+    justify-content: center;
+    align-items: center;
+    &__content {
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+    &__box {
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+    &__boards {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    &__board {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        flex: 1 0 0;
+    }
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    &__title-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    &__conflict {
+        color: $grey_main;
+    }
+    &__task {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 4px;
+        align-self: stretch;
+    }
+    &__character {
+        display: flex;
+        padding: 8px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+    &__character-photo {
+        width: 32px;
+        height: 32px;
+        border-radius: 1000px;
+        background: url('c:\Users\Acer\Downloads\Rectangle 37.png'), lightgray 50% / cover no-repeat;
+    }
+}
