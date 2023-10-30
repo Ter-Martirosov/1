@@ -1,21 +1,16 @@
 .main {
     height: 600px;
     background: $white_main;
-    display: flex;
-    padding: 0px 64px 190px 64px;
-    justify-content: center;
-    align-items: center;
     &__content {
         display: flex;
-        padding: 32px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-        flex-shrink: 0;
-        align-self: stretch;
+        width: 1440px;
+        padding: 0px 64px 190px 64px;
+        justify-content: center;
+        align-items: center;
     }
     &__box {
         display: flex;
+        width: 1312px;
         padding: 32px;
         flex-direction: column;
         align-items: flex-start;
@@ -36,6 +31,8 @@
         align-items: flex-start;
         gap: 16px;
         flex: 1 0 0;
+        border-radius: 24px;
+        background: #F8F9FB;
     }
     &__title {
         display: flex;
